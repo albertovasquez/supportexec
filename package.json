@@ -1,0 +1,29 @@
+{
+  "name": "supportexec",
+  "version": "1.0.0",
+  "description": "An online customer service software with live support, help desk software, and web analytics capabilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertovasquez/supportexec.git"
+  },
+  "keywords": [
+    "support",
+    "live",
+    "chat",
+    "help",
+    "desk"
+  ],
+  "author": "Alberto Vasquez <albertovasquez@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/albertovasquez/supportexec/issues"
+  },
+  "homepage": "https://github.com/albertovasquez/supportexec#readme",
+  "devDependencies": {
+    "jest": "^25.2.4"
+  }
+}
