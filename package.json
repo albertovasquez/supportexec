@@ -1,0 +1,67 @@
+{
+  "name": "supportexec",
+  "version": "1.0.0",
+  "description": "An online customer service software with live support, help desk software, and web analytics capabilities.",
+  "main": "index.js",
+  "scripts": {
+    "dev:start": "NODE_ENV=development nodemon -w src/server src/start.js",
+    "test": "jest --watch",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertovasquez/supportexec.git"
+  },
+  "keywords": [
+    "support",
+    "live",
+    "chat",
+    "help",
+    "desk"
+  ],
+  "author": "Alberto Vasquez <albertovasquez@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/albertovasquez/supportexec/issues"
+  },
+  "homepage": "https://github.com/albertovasquez/supportexec#readme",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "jest": "^25.2.4",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "vue": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
